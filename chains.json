@@ -244,6 +244,21 @@
       "iconSource": "https://uniscan.xyz/assets/uni/images/svg/logos/chain-light.svg"
     },
     {
+      "id": "ink",
+      "name": "Ink",
+      "family": "evm",
+      "chainId": 57073,
+      "type": "op_stack",
+      "testnet": false,
+      "nativeToken": "ETH",
+      "decimals": 18,
+      "explorerUrl": "https://explorer.inkonchain.com",
+      "nodes": ["https://rpc-qnd.inkonchain.com", "https://rpc-gel.inkonchain.com"],
+      "wssUrl": "wss://rpc-qnd.inkonchain.com",
+      "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "icon": "icons/ink.webp"
+    },
+    {
       "id": "xlayer",
       "name": "X Layer",
       "family": "evm",
@@ -322,6 +337,20 @@
       "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
       "icon": "icons/sepolia.webp",
       "iconSource": "https://ethereum.org/images/assets/svgs/eth-diamond-black-white.svg"
+    },
+    {
+      "id": "arc",
+      "name": "Arc",
+      "family": "evm",
+      "chainId": 5042,
+      "type": "unknown",
+      "testnet": false,
+      "nativeToken": "USDC",
+      "decimals": 18,
+      "explorerUrl": "https://arc.exploreme.pro",
+      "nodes": [],
+      "wssUrl": "",
+      "icon": "icons/arc.webp"
     },
     {
       "id": "solana",
